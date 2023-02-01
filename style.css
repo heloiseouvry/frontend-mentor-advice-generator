@@ -39,6 +39,8 @@ body {
 button[name="generate_advice"] {
   position:relative;
   top: -33px;
+  left: 50%;
+  transform: translate(-50%, 0);
   background-color: hsl(150, 100%, 66%);
   border-radius: 50%;
   width: 65px;
