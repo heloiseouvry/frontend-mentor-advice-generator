@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#advice_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 400px;
+  padding: 30px 25px 60px;
+  border-radius: 2%;
+  background-color: hsl(217, 19%, 24%);
+}
+
+#advice_container h1 {
+  margin: 0;
+  padding: 0;
+  color: hsl(150, 100%, 66%);
+  font-size: 16px;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 3px;
+}
+
+#advice_container p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+}
+
+button[name="generate_advice"] {
+  position:relative;
+  top: -33px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 0;
+  border: none;
+}
+
+button[name="generate_advice"]:hover {
+  background-color: hsl(193, 38%, 86%);
+  border: 5px solid hsl(150, 100%, 66%);
+}
+
+.attribution { font-size: 11px; text-align: center; color: hsl(217, 19%, 38%)}
+.attribution a { color: hsl(193, 38%, 86%); }
